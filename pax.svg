@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.227119,0,0,0.224745,500,503)">
+        <g transform="matrix(1,0,0,1,-1902.083333,-800)">
+            <g transform="matrix(17.361113,0,0,17.361113,-1.206596,1.206596)">
+                <path d="M50.17,90.204C47.867,92.506 44.132,92.506 41.829,90.204L1.796,50.171C-0.506,47.868 -0.506,44.133 1.796,41.83L29.319,14.308L39.781,24.77C38.849,27.283 39.393,30.22 41.412,32.239C42.025,32.852 42.723,33.329 43.468,33.67L43.468,59.165C42.723,59.506 42.025,59.983 41.412,60.596C38.649,63.36 38.649,67.84 41.412,70.604C44.176,73.368 48.657,73.368 51.421,70.604C54.184,67.84 54.184,63.36 51.421,60.596C50.808,59.983 50.11,59.506 49.365,59.165L49.365,34.354L58.964,43.952C58.032,46.466 58.575,49.402 60.595,51.422C63.359,54.185 67.839,54.185 70.603,51.422C73.367,48.658 73.367,44.177 70.603,41.413C68.584,39.394 65.647,38.85 63.134,39.782L53.052,29.7C53.984,27.187 53.44,24.25 51.421,22.231C49.401,20.211 46.465,19.667 43.951,20.6L33.489,10.137L41.829,1.797C44.132,-0.506 47.867,-0.506 50.17,1.797L90.203,41.83C92.506,44.133 92.506,47.868 90.203,50.171L50.17,90.204Z" style="fill:rgb(240,60,46);fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(0.743012,0,0,0.735243,102.887207,229.091695)">
+        <g>
+            <g transform="matrix(1,0,0,1,442.379,432.341)">
+                <text x="0px" y="0px" style="font-family:'Adelle-Regular', 'Adelle';font-size:383.333px;fill:white;stroke:white;stroke-width:14.09px;">p</text>
+            </g>
+            <g transform="matrix(1,0,0,1,668.546,432.341)">
+                <text x="0px" y="0px" style="font-family:'Adelle-Regular', 'Adelle';font-size:383.333px;fill:white;stroke:white;stroke-width:14.09px;">ax</text>
+            </g>
+        </g>
+    </g>
+</svg>
