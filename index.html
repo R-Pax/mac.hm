@@ -1,66 +1,80 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>mac.hm</title>
-<style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>mac.hm</title>
 
-  html, body { height: 100%; margin: 0; }
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
 
-.contact {
-  font-family: "Burbank Big Black", Inter, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-weight: 900;
-  font-size: 16px;           
-  color: #cfcfcf;
-  text-align: center;
-  margin-top: 8px;
-  letter-spacing: 0.6px;
-}
-.contact a {
-  color: #ffffff;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-}
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
 
-  body::before {
-    content: "";
-    position: fixed;
-    inset: -12px -12px -12px -12px;
-    z-index: -1;
-    pointer-events: none;
-    background:
-      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-      url('https://raw.githubusercontent.com/R-Pax/mac.hm/arch.jpg') center/cover no-repeat;
-    background-attachment: fixed;
-    
-    transform: translateZ(0);
-    will-change: transform;
-  }
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./arch.jpg") center center / cover no-repeat fixed;
+    }
 
-  .container {
-    max-width: 900px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1; 
-    min-height: calc(100vh - 40px);
-    box-sizing: border-box;
-  }
+    .container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
 
-  header { display:flex; align-items:center; gap:16px; }
-  footer { margin-top:36px; color:#ccc; font-size:14px; text-align:center; }
-  .socials{display:flex;gap:12px;justify-content:center;align-items:center;margin-bottom:12px}
-  @media (max-width:600px){
-    body { padding: 20px 20px 0 20px; }
-  }
-</style>
+    .logo {
+      margin: 0;
+      padding: 0;
+      line-height: 0;
+    }
+
+    .logo img {
+      display: block;
+      width: min(300px, 60vw);
+      height: auto;
+    }
+
+    .contact {
+      font-family: "Burbank Big Black", Inter, system-ui, "Segoe UI",
+        Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 900;
+      font-size: 16px;
+      color: #cfcfcf;
+      text-align: center;
+      margin-top: 20px;
+      letter-spacing: 0.6px;
+    }
+
+    .contact a {
+      color: #ffffff;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+    }
+  </style>
 </head>
+
 <body>
   <div class="container">
-    <h1 class="logo"><img src="./pax.svg" alt="txt"></h1>
-    <footer>
-      <div style="color:#ccc;font-size:15px;">contact: <a href="mailto:pax@mac.hm" style="color:#fff;text-decoration:underline;">pax@mac.hm</a></div>
-    </footer>
+    <h1 class="logo">
+      <img src="./pax.svg" alt="PAX" />
+    </h1>
+
+    <div class="contact">
+      contact:
+      <a href="mailto:pax@mac.hm">pax@mac.hm</a>
+    </div>
   </div>
 </body>
 </html>
